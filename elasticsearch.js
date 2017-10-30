@@ -104,8 +104,6 @@ function bulkAdd(document) {
   return elasticClient.bulk(
     {
       body : document
-    }, function (err, resp) {
-      console.log(err);
     });
 }
 exports.bulkAdd = bulkAdd;
