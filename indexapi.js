@@ -140,18 +140,15 @@ $(document).ready(function () {
 });
 
 function create_divs(data) {
-  for (i = 0; i < 10; i++) {
-    var $div1 = $("<div>", {id: "title_" + [i]});
-    $("#data" + i).append($div1);
-    var $div2 = $("<div>", {id: "content_" + [i]});
-    $("#data" + i).append($div2);
-  }
-
-  for (i = 0; i < 10; i++) {
-    for(let j = 0;j < 10; j++) {
-      console.log("****"+i,data[i].hits.hits[j]._source.title);
-      $("#title_" + [j]).text("Title:    " + data[i].hits.hits[j]._source.title);
-      $("#content_" + [j]).text("Content:  " + data[i].hits.hits[j]._source.content);
+  for (let i = 0; i < 10; i++) {
+    for(let j = 0;j <10; j++) {
+      let $div1 = $("<div>", {id: "title_" +[i] +[j]});
+      $("#data" + i).append($div1);
+      $("#title_" +[i] +[j]).text("Title:    " + data[i].hits.hits[j]._source.title);
+      var $div2 = $("<div>", {id: "content_" + [i] +[j]});
+      $("#data" + i).append($div2);
+      $("#content_" +[i] +[j]).text("Content:  " + data[i].hits.hits[j]._source.content);
     }
   }
+
 }
