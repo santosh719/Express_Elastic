@@ -1,0 +1,4 @@
+{
+  "title": "Mathematical functions",
+  "content": "Navigate Language Fundamentals topic: (vde)\n\n Statements\n Conditional blocks\n Loop blocks\n Boolean expressions\n Variables\n Primitive Types\n Arithmetic expressions\n Literals\n Methods\n String\n Objects\n Packages\n Arrays\n Mathematical functions\n Large numbers\n Random numbers\n Unicode\n Comments\n Keywords\n Coding conventionsThe java.lang.Math class allows the use of many common mathematical functions that can be used while creating programs.Since it is in the java.lang package, the Math class does not need to be imported. However, in programs extensively utilizing these functions, a static import can be used."
+}

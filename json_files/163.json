@@ -1,0 +1,4 @@
+{
+  "title": "continue[edit]",
+  "content": "continue is a Java keyword. It skips the remainder of the loop and continues with the next iteration.For example:int maxLoopIter = 7;\n\nfor (int i = 0; i < maxLoopIter; i++ ) {\n   if (i == 5) {\n      continue;  // -- 5 iteration is skipped --\n   }\n   System.println(\"Iteration = \" + i);\n}results in0\n1\n2\n3\n4\n6\n7"
+}

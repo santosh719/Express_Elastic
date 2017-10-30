@@ -1,0 +1,4 @@
+{
+  "title": "String",
+  "content": "Navigate Language Fundamentals topic: (vde)\n\n Statements\n Conditional blocks\n Loop blocks\n Boolean expressions\n Variables\n Primitive Types\n Arithmetic expressions\n Literals\n Methods\n String\n Objects\n Packages\n Arrays\n Mathematical functions\n Large numbers\n Random numbers\n Unicode\n Comments\n Keywords\n Coding conventionsString is a class built into the Java language defined in the java.lang package. It represents character strings. Strings are ubiquitous in Java. Study the String class and its methods carefully. It will serve you well to know how to manipulate them skillfully. String literals in Java programs, such as \"abc\", are implemented as instances of this class like this:Code section 3.81: String example.\n\n\n1 String str = \"This is string literal\";On the right hand side a String object is created represented by the string literal. Its object reference is assigned to the str variable."
+}

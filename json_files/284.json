@@ -1,0 +1,4 @@
+{
+  "title": "What Exceptions can be Declared when Implementing an Interface?[edit]",
+  "content": "When interfaces are involved, the implementation declaration must have a throws-clause that is compatible with the interface declarations."
+}

@@ -1,0 +1,4 @@
+{
+  "title": "For each loop trap[edit]",
+  "content": "Beware if you loop on an array or a collection in a for each loop.Code section 6.22: Visit a collection.\n\n\n1 Collection<Integer> myNumbers = buildNumbers();\n2 for (Integer myNumber : myNumbers) {\n3   System.out.println(myNumber);\n4 }If the object is null, it does not just do zero loops, it throws a null pointer exception. So don't forget this case. Add an if statement or return empty collections:Code section 6.23: Visit a collection safety.\n\n\n1 Collection<Integer> myNumbers = buildNumbers();\n2 if (myNumbers != null) {\n3   for (Integer myNumber : myNumbers) {\n4     System.out.println(myNumber);\n5   }\n6 }"
+}

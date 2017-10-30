@@ -1,0 +1,4 @@
+{
+  "title": "Collection[edit]",
+  "content": "The implementations of java.util.Collection interface are used for grouping simple java objects.Example\nWe can group together all patients in a Hospital to a \"patient\" collection."
+}

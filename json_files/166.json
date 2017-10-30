@@ -1,0 +1,4 @@
+{
+  "title": "do[edit]",
+  "content": "do is a Java keyword.It starts a do-while looping block. The do-while loop is functionally similar to the while loop, except the condition is evaluated after the statements executeSyntax:do {\n    //statements;\n} while (condition);For example:do {\n    i++;\n} while ( i < maxLoopIter );See also:Java Programming/Statements\nJava Programming/Keywords/for\nJava Programming/Keywords/while"
+}

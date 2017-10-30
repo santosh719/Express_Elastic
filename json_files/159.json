@@ -1,0 +1,4 @@
+{
+  "title": "catch[edit]",
+  "content": "catch is a keyword.It's part of a try block. If an exception is thrown inside a try block, the exception will be compared to any of the catch part of the block. If the exception match with one of the exception in the catch part, the exception will be handled there.For example:try {\n   //...\n     throw new MyException_1();\n   //...\n} catch ( MyException_1 e ) {\n   // --- Handle the Exception_1 here --\n} catch ( MyException_2 e ) {\n   // --- Handle the Exception_2 here --\n}See also:Java Programming/Keywords/try"
+}

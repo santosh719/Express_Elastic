@@ -1,0 +1,4 @@
+{
+  "title": "Unicode",
+  "content": "Navigate Language Fundamentals topic: (vde)\n\n Statements\n Conditional blocks\n Loop blocks\n Boolean expressions\n Variables\n Primitive Types\n Arithmetic expressions\n Literals\n Methods\n String\n Objects\n Packages\n Arrays\n Mathematical functions\n Large numbers\n Random numbers\n Unicode\n Comments\n Keywords\n Coding conventionsMost Java program text consists of ASCII characters, but any Unicode character can be used as part of identifier names, in comments, and in character and string literals. For example,  (which is the Greek Lowercase Letter pi) is a valid Java identifier:Code section 3.100: Pi.\n\n\n1 double  = Math.PI;and in a string literal:Code section 3.101: Pi literal.\n\n\n1 String pi = \"\";"
+}

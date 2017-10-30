@@ -1,0 +1,4 @@
+{
+  "title": "Throw statement[edit]",
+  "content": "A throw statement exits from a method and so on and so on or it is caught by a try/catch block. It does not return a variable but an exception:Code section 3.20: A return statement.\n\n\n1     public int getAge() {\n2         throw new NullPointerException();\n3     }Beware not to write statements after a throw statement which would not be executed too! Each throw statement is ended by a semi-colon (;)."
+}

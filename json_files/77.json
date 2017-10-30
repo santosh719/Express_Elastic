@@ -1,0 +1,4 @@
+{
+  "title": "Boolean expressions",
+  "content": "Navigate Language Fundamentals topic: (vde)\n\n Statements\n Conditional blocks\n Loop blocks\n Boolean expressions\n Variables\n Primitive Types\n Arithmetic expressions\n Literals\n Methods\n String\n Objects\n Packages\n Arrays\n Mathematical functions\n Large numbers\n Random numbers\n Unicode\n Comments\n Keywords\n Coding conventionsBoolean values are values that evaluate to either true or false, and are represented by the boolean data type. Boolean expressions are very similar to mathematical expressions, but instead of using mathematical operators such as \"+\" or \"-\", you use comparative or boolean operators such as \"==\" or \"!\"."
+}

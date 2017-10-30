@@ -1,0 +1,4 @@
+{
+  "title": "Comparing Objects",
+  "content": "Navigate Aggregate topic: (vde)\n\n Collection\n ArrayList\n Map\n Comparing ObjectsIn Java, we can distinguish two kinds of equality.Object reference equality: when two object references point to the same object.\nObject value equality: when two separate objects happen to have the same values/state.If two objects are equal in reference, they are equal in value too."
+}

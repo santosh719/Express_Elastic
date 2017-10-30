@@ -1,0 +1,4 @@
+{
+  "title": "Documented[edit]",
+  "content": "If a member is annotated with a type itself marked as @Documented, then that member will be documented as annotating that type.Code listing 1.1: Use of @Documented\n\n\n@interface Secret { }\n\n@Documented\n@interface NotSecret { }\n\n@Secret\n@NotSecret\npublic class Example {\n}In the documentation for the Example class, such as the JavaDoc, Example will be shown as annotated with @NotSecret, but not @Secret."
+}

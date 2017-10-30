@@ -1,0 +1,4 @@
+{
+  "title": "Comparing for reference equality[edit]",
+  "content": "The == operator can be used to check if two object references point to the same object.Code section 5.19: Reference equality.\n\n\n1 if (objRef1 == objRef2) {\n2     // The two object references point to the same object\n3 }"
+}

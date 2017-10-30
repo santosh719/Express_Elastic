@@ -1,0 +1,4 @@
+{
+  "title": "Check all references obtained from 'untrusted' methods[edit]",
+  "content": "Many methods that can return a reference can return a null reference. Make sure you check these. For example:Code section 6.21: Declaring an exception.\n\n\n1 File file = new File(\"/etc\");\n2 File[] files = file.listFiles();\n3 if (files != null) {\n4     stuff\n5 }File.listFiles() can return null if /etc is not a directory.You can decide to trust some methods not to return null, if you like, but that's an assumption you're making. Some methods that don't specify that they might return null, actually do, instead of throwing an exception."
+}

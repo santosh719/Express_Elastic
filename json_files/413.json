@@ -1,0 +1,4 @@
+{
+  "title": "Database Programming",
+  "content": "Navigate Advanced topic: (vde)\n\n Networking\n Database programming\n Regular Expressions\n Libraries, extensions and frameworks\n 3D programming\n Java Native Interface\n Invoking C\n Byte CodeJava uses JDBC, an API that defines how a client may access a database. Its drivers may be installed first. [1][2]"
+}

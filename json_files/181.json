@@ -1,0 +1,4 @@
+{
+  "title": "implements[edit]",
+  "content": "implements is a Java keyword.Used in class definition to declare the Interfaces that are to be implemented by the class.Syntax:public class MyClass implements MyInterface1, MyInterface2\n {\n   ...\n }See also:Java Programming/Creating Objects\nJava Programming/Keywords/class\nJava Programming/Keywords/interface"
+}

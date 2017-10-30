@@ -1,0 +1,4 @@
+{
+  "title": "while[edit]",
+  "content": "while is a Java keyword.It starts a looping block.The general syntax of a while, using Extended Backus-Naur Form, iswhile-looping-statement ::= while condition-clause \n                                    single-statement | block-statement\n \ncondition-clause    ::= ( Boolean Expression )\nsingle-statement    ::= Statement\nblock-statement     ::= { Statement [ Statements ] }For example:while ( i < maxLoopIter )\n {\n    System.println(\"Iter=\" +i++);\n }See also:Java Programming/Statements\nJava Programming/Keywords/for\nJava Programming/Keywords/do"
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Execution",
+  "content": "Navigate Getting Started topic: (vde)\n\n Installing Java on Your Computer\n Compiling programs\n Running Java programs\n Understanding a Java program\n Java IDEsThere are various ways in which Java code can be executed. A complex Java application usually uses third party APIs or services. In this section we list the most popular ways a piece of Java code may be packed together and/or executed."
+}

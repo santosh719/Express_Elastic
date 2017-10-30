@@ -1,0 +1,4 @@
+{
+  "title": "try/catch[edit]",
+  "content": "A try/catch must at least contain the try block and the catch block:Code section 3.21: try/catch block.\n\n\n1 try {\n2   // Some code\n3 } catch (Exception e) {\n4   // Optional exception handling\n5 } finally {\n6   // This code is executed no matter what\n7 }Test your knowledge\n\nQuestion 3.1: How many statements are there in this class?\n\n\n\nCode listing 3.2: AProgram.java\n\n\n 1 public class AProgram {\n 2 \n 3     private int age = 24;\n 4 \n 5     public static void main(String[] args) {\n 6         int daysInAYear = 365;int ageInDay = 100000;\n 7         int localAge = ageInDay / daysInAYear;\n 8     }\n 9 \n10     public int getAge() {\n11         return age;\n12     }\n13 }\n\n\n\n\n\nAnswer\n\n5\nOne statement at line 3, two statements at line 6, one statement at line 7 and one statement at line 11."
+}

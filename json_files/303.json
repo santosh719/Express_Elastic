@@ -1,0 +1,4 @@
+{
+  "title": "References[edit]",
+  "content": "The number of tasks that can be run simultaneously for a single Java application depends on how many tasks an operating system allows to be multithreaded.Daemon thread tutorial"
+}

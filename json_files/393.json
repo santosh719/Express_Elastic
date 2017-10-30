@@ -1,0 +1,4 @@
+{
+  "title": "abc",
+  "content": "Navigate User Interface topic:(vde)\n\n Basic I/O\n Streams\n Event handling\n JavaBeans\n Canvas\n Graphics\n\n Drawing basic shapes\n Drawing complex shapes\n Drawing text\n Understanding gradients\n\n\n Applets\n\n\n\n\n Overview\n User Interface\n Event Listeners\n Graphics and MediaThe main difference between an applet and a regular command-line executed program is that applets allow for extensible Graphical User Interfaces (GUI).Since applets provide for the ability to create complex GUI, it is important for developers to know how to create such programs."
+}

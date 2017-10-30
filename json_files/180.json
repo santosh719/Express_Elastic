@@ -1,0 +1,4 @@
+{
+  "title": "if[edit]",
+  "content": "if is a Java keyword. It starts a branching statement.The general syntax of a if, using Extended Backus-Naur Form, isbranching-statement ::= if condition-clause \n                                    single-statement | block-statement\n                       [ else \n                                    single-statement | block-statement ]\n \ncondition-clause    ::= ( Boolean Expression )\nsingle-statement    ::= Statement\nblock-statement     ::= { Statement [ Statements ] }For example:if ( boolean Expression )\n{\n   System.out.println(\"'True' statement block\");\n}\nelse\n{\n   System.out.println(\"'False' statement block\");\n}See also:Java Programming/Keywords/else"
+}

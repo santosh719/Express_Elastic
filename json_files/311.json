@@ -1,0 +1,4 @@
+{
+  "title": "RMI Remote object[edit]",
+  "content": "The remote object has to either extend the java.rmi.server.UnicastRemoteObject object, or be explicitly exported by calling the java.rmi.server.UnicastRemoteObject.exportObject() method."
+}

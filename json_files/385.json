@@ -1,0 +1,4 @@
+{
+  "title": "Drawing complex shapes",
+  "content": "Navigate User Interface topic:(vde)\n\n Basic I/O\n Streams\n Event handling\n JavaBeans\n Canvas\n Graphics\n\n Drawing basic shapes\n Drawing complex shapes\n Drawing text\n Understanding gradients\n\n\n Applets\n\n\n\n\n Overview\n User Interface\n Event Listeners\n Graphics and MediaCode listing 9.4: Drawing complex shapes\n\n\npublic class Hello {\n    JLabel label = newJLabel(\"Hello, Mundo!\");\n    JFrame frame = new JFrame(\"BK*\");\n    frame.add(label);\n\n    frame.setSize(300, 300);\n    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);\n    frame.setVisible(true);\n    frame.setLocationRelativeTo(null);\n    frame.toFront();\n    }\n}"
+}

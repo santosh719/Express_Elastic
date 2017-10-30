@@ -1,0 +1,9 @@
+{
+  "name": "1211219006-assignment3-express-elastic",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}

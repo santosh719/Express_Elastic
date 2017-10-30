@@ -1,0 +1,4 @@
+{
+  "title": "this[edit]",
+  "content": "this is a Java keyword. It contains the current object reference.Solves ambiguity between instance variables and parameters .\nUsed to pass current object as a parameter to another method .Syntax:this.method();\nor\nthis.variable;Example #1 for case 1:public class MyClass\n { \n    //...\n    private String value;\n    //...\n    public void setMemberVar( String value )\n    {\n        this.value= value;\n    }\n }Example #2 for case 1:public class MyClass\n { \n    MyClass(int a, int b) {\n        System.out.println(\"int a: \" + a);\n        System.out.println(\"int b: \" + b);\n    }\n    MyClass(int a) {\n        this(a, 0);\n    }\n    //...\n    public static void main(String[] args) {\n        new MyClass(1, 2);\n        new MyClass(5);\n    }\n }"
+}

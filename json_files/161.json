@@ -1,0 +1,4 @@
+{
+  "title": "class[edit]",
+  "content": "class is a Java keyword which begins the declaration and definition of a class.The general syntax of a class declaration, using Extended Backus-Naur Form, isclass-declaration ::= [access-modifiers] class identifier\n                      [extends-clause] [implements-clause] \n                      class-body\n\nextends-clause ::= extends class-name\nimplements-clause ::= implements interface-names \ninterface-names ::= interface-name [, interface-names]\nclass-body ::= { [member-declarations] }\nmember-declarations = member-declaration [member-declarations]\nmember-declaration = field-declaration \n                     | initializer \n                     | constructor \n                     | method-declaration\n                     | class-declarationThe extends word is optional. If omitted, the class extends the Object class, as all Java classes inherit from it.See also:Java Programming/Keywords/new"
+}

@@ -1,0 +1,4 @@
+{
+  "title": "short[edit]",
+  "content": "short is a keyword. It defines a 16 bit signed integer primitive type.Syntax:short <variable-name> = <integer-value>;For example:short age = 65;See also:Java Programming/Primitive Types"
+}

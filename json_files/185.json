@@ -1,0 +1,4 @@
+{
+  "title": "interface[edit]",
+  "content": "interface is a Java keyword. It starts the declaration of a Java Interface.For example:public interface SampleInterface\n{\n   public void method1();\n   //...\n}See also:Java Programming/Keywords/new"
+}

@@ -1,0 +1,4 @@
+{
+  "title": "new[edit]",
+  "content": "new is a Java keyword. It creates a Java object and allocates memory for it on the heap. new is also used for array creation, as arrays are also objects.Syntax:<JavaType> <variable> = new <JavaObject>();For example:LinkedList list = new LinkedList();\nint[] intArray = new int[10];\nString[][] stringMatrix = new String[5][10];See also:Java Programming/Creating Objects"
+}

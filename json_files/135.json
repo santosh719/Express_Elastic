@@ -1,0 +1,4 @@
+{
+  "title": "Math constants[edit]",
+  "content": "There are two constants in the Math class that are fairly accurate approximations of irrational mathematical numbers.Math.E[edit]The Math.E constant represents the value of Euler's number (e), the base of the natural logarithm.Code section 3.20: Math.E\n\n\n1 public static final double E = 2.718281828459045;Math.PI[edit]The Math.PI constant represents the value of pi, the ratio of a circle's circumference to its diameter.Code section 3.21: Math.PI\n\n\n1 public static final double PI = 3.141592653589793;"
+}

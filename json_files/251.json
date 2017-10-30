@@ -1,0 +1,4 @@
+{
+  "title": "Aggregate",
+  "content": "Navigate Aggregate topic: (vde)\n\n Collection\n ArrayList\n Map\n Comparing ObjectsTopics:\n\nPreface\nGetting started\nLanguage fundamentals\nClasses and objects\nAggregate\nExceptions\nConcurrent Programming\nJavadoc & Annotations\nDesigning user interfaces\nAdvanced topicsIn the previous chapters, we have discovered the array. An array stores a group of primitive types. To group objects, or to reference a group of objects, we can use Java aggregate classes. There are two main interfaces, those are java.util.Collection and java.util.Map . Implementations for those interfaces are not interchangeable."
+}

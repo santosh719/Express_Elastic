@@ -1,0 +1,4 @@
+{
+  "title": "else[edit]",
+  "content": "else is a Java keyword. It is an optional part of a branching statement. It starts the 'false' statement block.The general syntax of a if, using Extended Backus-Naur Form, isbranching-statement ::= if condition-clause \n                                    single-statement | block-statement\n                       [ else \n                                    single-statement | block-statement ]\n \ncondition-clause    ::= ( Boolean Expression )\nsingle-statement    ::= Statement\nblock-statement     ::= { Statement [ Statement ] }For example:if ( expression ) {\n   System.out.println(\"'True' statement block\");\n} else {\n   System.out.println(\"'False' statement block\");\n}See also:Java Programming/Keywords/if"
+}

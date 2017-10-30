@@ -1,0 +1,4 @@
+{
+  "title": "Comparing string variable with a string literal[edit]",
+  "content": "When you compare a variable with a string literal, most of people would do that this way:Code section 6.15: Bad comparison.\n\n\n1 if (state.equals(\"OK\")) {\n2   ...\n3 }Always put the string literal first:Code section 6.16: Better comparison.\n\n\n1 if (\"OK\".equals(state)) {\n2   ...\n3 }If the state variable is null, you get a NullPointerException in the first example, but not in the second one."
+}

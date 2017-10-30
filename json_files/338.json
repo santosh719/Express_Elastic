@@ -1,0 +1,4 @@
+{
+  "title": "Annotation Element Declarations[edit]",
+  "content": "What look like methods in the body of the annotation definition are called annotation element declarations. These are the named entities that we used with the annotation body in the example in the previous section. However, for the sake of clarity, code below also represents the calling of the following annotation:Code listing 1.2: Calling of annotation\n\n\npublic class MyMethod\n{\n    @CodeDescription\n    (\n        author = \"Unknown\",\n        version = \"1.0.0.1\"\n    )\n    public void doSomething()\n    {\n        ...\n    }\n}"
+}

@@ -1,0 +1,4 @@
+{
+  "title": "Drawing text",
+  "content": "Navigate User Interface topic:(vde)\n\n Basic I/O\n Streams\n Event handling\n JavaBeans\n Canvas\n Graphics\n\n Drawing basic shapes\n Drawing complex shapes\n Drawing text\n Understanding gradients\n\n\n Applets\n\n\n\n\n Overview\n User Interface\n Event Listeners\n Graphics and MediaCode listing 9.5: Drawing text\n\n\npublic class MyCanvas extends Canvas {\n    public void init() {\n        setFont(\"Times New Roman\", Font.PLAIN, 24);\n        setColor(Color.white);\n        setBackGroundColor(Color.black);\n        setLayout(new GridLayout());\n \n        add(label);\n        add(button);\n    }\n}"
+}

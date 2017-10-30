@@ -1,0 +1,4 @@
+{
+  "title": "Minimize the use of the keyword 'null' in assignment statements[edit]",
+  "content": "This means not doing things like:Code section 6.17: Declaring an exception.\n\n\n 1 String s = null;\n 2 while (something) {\n 3     if (something2) {\n 4         s = \"yep\";\n 5     }\n 6 }\n 7 \n 8 if (s != null) {\n 9     something3(s);\n10 }You can replace this with:Code section 6.18: Declaring an exception.\n\n\n1 boolean done = false;\n2 \n3 while (!done && something) {\n4     if (something2) {\n5        done = true;\n6        something3(\"yep\");\n7     }\n8 }You might also consider replacing null with \"\" in the first example, but default values bring about bugs caused by default values being left in place. A NullPointerException is actually better, as it allows the runtime to tell you about the bug, rather than just continue with a default value."
+}

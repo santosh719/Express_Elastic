@@ -1,0 +1,4 @@
+{
+  "title": "Javadoc comments[edit]",
+  "content": "Javadoc comments are a special case of slash-star comments.Code section 3.113: Javadoc comment.\n\n\n1 /**\n2  * Comments which start with slash-star-star are Javadoc comments.\n3  * These are used to extract documentation from the Java source.\n4  * More on javadoc will be covered later.\n5  */"
+}

@@ -1,0 +1,4 @@
+{
+  "title": "for[edit]",
+  "content": "for is a Java keyword.It starts a looping block.The general syntax of a for, using Extended Backus-Naur Form, isfor-looping-statement ::= for condition-clause \n                                    single-statement | block-statement\n \ncondition-clause    ::= ( before-statement;  Boolean Expression ; after-statement )\nsingle-statement    ::= Statement\nblock-statement     ::= { Statement [ Statement ] }For example:for ( int i=0; i < maxLoopIter; i++ ) {\n    System.println(\"Iter: \" +i);\n}See also:Java Programming/Keywords/while\nJava Programming/Keywords/do"
+}
