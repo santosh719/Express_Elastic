@@ -16,6 +16,7 @@
     "elasticsearch": "^13.3.1",
     "express": "^4.13.3",
     "jade": "^1.11.0",
+    "materialize-css": "^0.100.2",
     "morgan": "^1.6.1",
     "serve-favicon": "^2.3.0"
   },

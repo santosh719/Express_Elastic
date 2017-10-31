@@ -43,7 +43,7 @@ router.post('/addAllDocuments', function (req, res, next) {
       let bulkAddDocs = prepareJsonToIndex([]);
       return elastic.bulkAdd(bulkAddDocs);
     }, function (err) {
-        console.log(err);
+      console.log(err);
     });
   }).then((resp) => res.json(resp), (err) => res.err(err));
 });

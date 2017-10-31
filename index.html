@@ -1,79 +1,271 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
   <meta charset="UTF-8">
   <title>Login Form</title>
+
+  <!-- Compiled and minified CSS -->
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="/materialize/css/materialize.min.css" media="screen,projection"/>
   <link rel="stylesheet" href="style.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
   <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 </head>
 
 <body>
-<div class="questions">
-  <div>
-    <h3><a href="#">I was presented with this question in an end of module open book exam today and found myself lost. i was reading Head first Javaand both definitions seemed to be exactly the same. i was just wondering what the MAIN difference was for my own piece of mind. i know there are a number of similar questions to this but, none i have seen which provide a definitive answer.Thanks, Darren</a></h3>
-    <div id="data0">
-      <br />
-    </div>
-  </div>
-  <div>
-    <h3><a href="#">Inheritance is when a 'class' derives from an existing 'class'.So if you have a Person class, then you have a Student class that extends Person, Student inherits all the things that Person has.There are some details around the access modifiers you put on the fields/methods in Person, but that's the basic idea.For example, if you have a private field on Person, Student won't see it because its private, and private fields are not visible to subclasses.Polymorphism deals with how the program decides which methods it should use, depending on what type of thing it has.If you have a Person, which has a read method, and you have a Student which extends Person, which has its own implementation of read, which method gets called is determined for you by the runtime, depending if you have a Person or a Student.It gets a bit tricky, but if you do something likePerson p = new Student();p.read();the read method on Student gets called.Thats the polymorphism in action.You can do that assignment because a Student is a Person, but the runtime is smart enough to know that the actual type of p is Student.Note that details differ among languages.You can do inheritance in javascript for example, but its completely different than the way it works in Java.</a></h3>
-    <div id="data1">
-      <br />
-    </div>
-  </div>
+<h1 style="text-align: center"> Top Recommendations!</h1>
 
-  <div>
-    <h3><a href="#">Polymorphism: The ability to treat objects of different types in a similar manner.Example: Giraffe and Crocodile are both Animals, and animals can Move.If you have an instance of an Animal then you can call Move without knowing or caring what type of animal it is.Inheritance: This is one way of achieving both Polymorphism and code reuse at the same time.Other forms of polymorphism:There are other way of achieving polymorphism, such as interfaces, which provide only polymorphism but no code reuse (sometimes the code is quite different, such as Move for a Snake would be quite different from Move for a Dog, in which case an Interface would be the better polymorphic choice in this case.In other dynamic languages polymorphism can be achieved with Duck Typing, which is the classes don't even need to share the same base class or interface, they just need a method with the same name.Or even more dynamic like Javascript, you don't even need classes at all, just an object with the same method name can be used polymorphically.</a></h3>
-    <div id="data2">
-      <br />
+<div class="questions">
+  <div class="row">
+    <div class="col m2">
     </div>
-  </div>
-  <div>
-    <h3><a href="#">I found out that the above piece of code is perfectly legal in Java. I have the following questions. ThanksAdded one more question regarding Abstract method classes. public class TestClass{public static void main(String[] args) {TestClass t = new TestClass();}private static void testMethod(){abstract class TestMethod{int a;int b;int c;abstract void implementMe();}class DummyClass extends TestMethod{void implementMe(){}}DummyClass dummy = new DummyClass();}}</a></h3>
-    <div id="data3">
-      <br />
-    </div>
-  </div>
-    <div>
-      <h3><a href="#">In java it's a bit difficult to implement a deep object copy function. What steps you take to ensure the original object and the cloned one share no reference?</a></h3>
-      <div id="data4">
-        <br />
-      </div>
-    </div>
-      <div>
-        <h3><a href="#">You can make a deep copy serialization without creating some files. Copy: Restore: ByteArrayOutputStream bos = new ByteArrayOutputStream();ObjectOutputStream oos = new ObjectOutputStream(bos);oos.writeObject(object);oos.flush();oos.close();bos.close();byte[] byteData = bos.toByteArray();; ByteArrayInputStream bais = new ByteArrayInputStream(byteData);(Object) object = (Object) new ObjectInputStream(bais).readObject();</a></h3>
-        <div id="data5">
-          <br />
+    <div class="col m8 offset-s3">
+      <div class="card grey darken-2">
+        <div class="card-content white-text">
+          <h4> Summary </h4>
+          <ul>
+            <b>Collection of Data</b>
+            <li> Implemented Crawler in Python using Beautiful soup, recursively traversing all the links from the main
+              page
+            </li>
+            <br>
+            <li> Collected the output in different JSON files with title and content as keys.</li>
+            <br>
+            <b>Indexing the Content</b>
+            <li> For indexing, loaded the data in Elasticsearch, it uses Apache Lucene as underlying implementation for
+              indexing
+            </li>
+            <br>
+            <li> Insert all the JSON files as bulk input with the index mapping done using parameters BM25 and english
+              analyzer.
+            </li>
+            <br><b>Web app</b>
+            <li>
+              You will find the list of 10 posts below with their respective recommendations which are queried from
+              Elasticsearch. The AJAX recommendation API is implemented in Express.
+            </li>
+            <br>
+            <h4>Orignality</h4>
+            <li> The interactive and response UI is developed in Materialize framework. Made use of the
+              collapsible(accordion) element from it.
+            </li>
+            <br>
+            <li> Using nltk library in python I have tokenized words, performed stemming, removed repeating
+              words and characters, and extracted nouns using Regex, extracted leaves from
+              each generated trees as list of meaningful words which is later used in data.js file.
+            </li>
+            <br>
+            <li> Performed indexing in Elasticsearch using similarity algorithm BM25,
+              also applied the english analyzer in index mapping while building of indices.
+            </li>
+            <br>
+            <li> BM25 Algorithm: In information retrieval, BM25 (BM stands for Best Matching) is a ranking function used
+              by search engines to rank matching documents according to their relevance to a given search query (term
+              frequency). It uses probablistic approach.
+            </li>
+            <br>
+          </ul>
+        </div>
+        <div class="card-action">
+          <div style="text-align: center">
+            <!--<button id="addData" class="waves-effect waves-light btn" style="position: relative;top: 50%;" >Add All Files to ElasticSearch.</button>-->
+            <!--<button id="displayData" class="waves-effect waves-light btn" style="display: none;position: relative;top: 50%;"> Load and Display Data.</button>-->
+            <div class="card-content white-text" style="position: relative;top: 50%;">
+              <p>Note: please make sure the Elasticsearch service is running at http://localhost:9200</p></div>
+          </div>
         </div>
       </div>
-  <div>
-    <h3><a href="#">Java has the ability to create classes at runtime. These classes are known as Synthetic Classes or Dynamic Proxies. See for more information. Other open-source libraries, such as and also allow you to generate synthetic classes, and are more powerful than the libraries provided with the JRE. Synthetic classes are used by AOP (Aspect Oriented Programming) libraries such as Spring AOP and AspectJ, as well as ORM libraries such as Hibernate.</a></h3>
-    <div id="data6">
-      <br />
     </div>
   </div>
-  <div>
-    <h3><a href="#">A safe way is to serialize the object, then deserialize.This ensures everything is a brand new reference.about how to do this efficiently. Caveats: It's possible for classes to override serialization such that new instances are created, e.g. for singletons.Also this of course doesn't work if your classes aren't Serializable.</a></h3>
-    <div id="data7">
-      <br />
+  <div class="row">
+    <div class="col m1">
     </div>
-  </div>
-  <div>
-    <h3><a href="#">comment this code /*if (savedinstancestate == null) {     getsupportfragmentmanager().begintransaction()             .add(r.id.container  new placeholderfragment())             .commit(); }*/</a></h3>
-    <div id="data8">
-      <br />
-    </div>
-  </div>
-  <div>
-    <h3><a href="#">in a class i can have as many constructors as i want with different argument types. i made all the constructors as private it didn't give any error because my implicit default constructor was public but when i declared my implicit default constructor as private then its showing an error while extending the class.  why?       this works fine         this can not be inherited public class demo4  {     private string name;     private int age;     private double sal;      private demo4(string name  int age) {         this.name=name;         this.age=age;        }      demo4(string name) {         this.name=name;     }      demo4() {         this(\"unknown\"  20);         this.sal=2000;     }      void show(){         system.out.println(\"name\"+name);         system.out.println(\"age: \"+age);     } }  public class demo4  {     private string name;     private int age;     private double sal;      private demo4(string name  int age) {         this.name=name;         this.age=age;     }      demo4(string name) {         this.name=name;     }      private demo4() {         this(\"unknown\"  20);         this.sal=2000;     }      void show() {         system.out.println(\"name\"+name);         system.out.println(\"age: \"+age);     } }</a></h3>
-    <div id="data9">
-      <br />
-    </div>
-  </div>
+    <div class="col m10">
+      <ul class="collapsible" data-collapsible="accordion">
+        <li>
+          <div class="collapsible-header"><p><i class="material-icons">library_books</i> <b>Question 1</b> I was
+            presented with this question in an end of module open book exam today and found myself lost. i was reading
+            Head first Javaand both definitions seemed to be exactly the same. i was just wondering what the MAIN
+            difference was for my own piece of mind. i know there are a number of similar questions to this but, none i
+            have seen which provide a definitive answer.Thanks, Darren</p></div>
+          <div id="data0" class="collapsible-body">
 
-  <script src="indexapi.js"></script>
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="tiny material-icons">library_books</i> <b>Question 2</b> Inheritance is when a 'class' derives
+              from an existing 'class'.So if you have a Person class, then you have a Student class that extends Person,
+              Student inherits all the things that Person has.There are some details around the access modifiers you put
+              on the fields/methods in Person, but that's the basic idea.For example, if you have a private field on
+              Person, Student won't see it because its private, and private fields are not visible to
+              subclasses.Polymorphism deals with how the program decides which methods it should use, depending on what
+              type of thing it has.If you have a Person, which has a read method, and you have a Student which extends
+              Person, which has its own implementation of read, which method gets called is determined for you by the
+              runtime, depending if you have a Person or a Student.It gets a bit tricky, but if you do something
+              likePerson p = new Student();p.read();the read method on Student gets called.Thats the polymorphism in
+              action.You can do that assignment because a Student is a Person, but the runtime is smart enough to know
+              that the actual type of p is Student.Note that details differ among languages.You can do inheritance in
+              javascript for example, but its completely different than the way it works in Java.</p>
+          </div>
+          <div id="data1" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Question 3</b> Polymorphism: The ability to treat objects
+              of different types in a similar manner.Example: Giraffe and Crocodile are both Animals, and animals can
+              Move.If you have an instance of an Animal then you can call Move without knowing or caring what type of
+              animal it is.Inheritance: This is one way of achieving both Polymorphism and code reuse at the same
+              time.Other forms of polymorphism:There are other way of achieving polymorphism, such as interfaces, which
+              provide only polymorphism but no code reuse (sometimes the code is quite different, such as Move for a
+              Snake would be quite different from Move for a Dog, in which case an Interface would be the better
+              polymorphic choice in this case.In other dynamic languages polymorphism can be achieved with Duck Typing,
+              which is the classes don't even need to share the same base class or interface, they just need a method
+              with the same name.Or even more dynamic like Javascript, you don't even need classes at all, just an
+              object with the same method name can be used polymorphically.</p>
+          </div>
+          <div id="data2" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Question 4</b> I found out that the above piece of code is
+              perfectly legal in Java. I have the following questions. ThanksAdded one more question regarding Abstract
+              method classes. public class TestClass{public static void main(String[] args) {TestClass t = new
+              TestClass();}private static void testMethod(){abstract class TestMethod{int a;int b;int c;abstract void
+              implementMe();}class DummyClass extends TestMethod{void implementMe(){}}DummyClass dummy = new
+              DummyClass();}}</p>
+          </div>
+          <div id="data3" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Question 5</b> In java it's a bit difficult to implement a
+              deep object copy function. What steps you take to ensure the original object and the cloned one share no
+              reference? </p>
+          </div>
+          <div id="data4" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Question 6</b> You can make a deep copy serialization
+              without creating some files. Copy: Restore: ByteArrayOutputStream bos = new
+              ByteArrayOutputStream();ObjectOutputStream oos = new
+              ObjectOutputStream(bos);oos.writeObject(object);oos.flush();oos.close();bos.close();byte[] byteData =
+              bos.toByteArray();; ByteArrayInputStream bais = new ByteArrayInputStream(byteData);(Object) object =
+              (Object) new ObjectInputStream(bais).readObject();</p>
+          </div>
+          <div id="data5" class="collapsible-body">
+
+            <br/>
+
+          </div>
+
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Question 7</b> Java has the ability to create classes at
+              runtime. These classes are known as Synthetic Classes or Dynamic Proxies. See for more information. Other
+              open-source libraries, such as and also allow you to generate synthetic classes, and are more powerful
+              than the libraries provided with the JRE. Synthetic classes are used by AOP (Aspect Oriented Programming)
+              libraries such as Spring AOP and AspectJ, as well as ORM libraries such as Hibernate.</p>
+          </div>
+          <div id="data6" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Question 8</b> A safe way is to serialize the object, then
+              deserialize.This ensures everything is a brand new reference.about how to do this efficiently. Caveats:
+              It's possible for classes to override serialization such that new instances are created, e.g. for
+              singletons.Also this of course doesn't work if your classes aren't Serializable.</p>
+          </div>
+          <div id="data7" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Question 9</b> comment this code /*if (savedinstancestate
+              == null) { getsupportfragmentmanager().begintransaction() .add(r.id.container new placeholderfragment())
+              .commit(); }*/</p>
+          </div>
+          <div id="data8" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+        <br>
+        <li>
+          <div class="collapsible-header">
+            <p><i class="material-icons">library_books</i> <b>Post 10</b> in a class i can have as many constructors as
+              i want with different argument types. i made all the constructors as private it didn't give any error
+              because my implicit default constructor was public but when i declared my implicit default constructor as
+              private then its showing an error while extending the class. why? this works fine this can not be
+              inherited public class demo4 { private string name; private int age; private double sal; private
+              demo4(string name int age) { this.name=name; this.age=age; } demo4(string name) { this.name=name; }
+              demo4() { this(\"unknown\" 20); this.sal=2000; } void show(){ system.out.println(\"name\"+name);
+              system.out.println(\"age: \"+age); } } public class demo4 { private string name; private int age; private
+              double sal; private demo4(string name int age) { this.name=name; this.age=age; } demo4(string name) {
+              this.name=name; } private demo4() { this(\"unknown\" 20); this.sal=2000; } void show() {
+              system.out.println(\"name\"+name); system.out.println(\"age: \"+age); } }</p>
+          </div>
+          <div id="data9" class="collapsible-body">
+
+            <br/>
+
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="col m1">
+    </div>
+
+  </div>
+  <p align="center">Adaptive Web Assignment 3 </p>
+  <p align="center"> Santosh Bidve 1211219006 </p>
 </div>
+<!--Import jQuery before materialize.js-->
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
+<script src="indexapi.js"></script>
+
 </body>
 </html>

@@ -1,133 +1,42 @@
+
 $(document).ready(function () {
-  $("> div", "#questionsDispos").draggable({
-    helper: "clone",
-    revert: "invalid",
-    cursor: "move",
-    handle: "h3",
-    connectToSortable: ".questions"
-  });
-
-  $(".questions").accordion({
-    header: "> div > h3",
-    collapsible: true,
-    active: false,
-    autoActivate: true,
-    heightStyle: "content"
-  });
-
-  $(".questions").sortable({
-    axis: "y",
-    handle: "h3",
-    items: "div",
-    receive: function (event, ui) {
-      $(ui.item).removeClass();
-      $(ui.item).removeAttr("style");
-      $(".questions").accordion("add", "<div>" + ui.item.hmtl() + "</div>");
+  $('.collapsible').collapsible({accordion: true});
+  let promise = $.ajax({
+    type: "POST",
+    url: "documents/addAllDocuments",
+    dataType: "json",
+    success: function (data) {
+      let t = setTimeout(searchAllDocs, 1000);
     }
   });
 
-  $("#questionsDispos").accordion({
-    header: "> div > h3",
-    collapsible: true,
-    active: false,
-    autoHeight: true
-  });
-  $("button").button();
-  $('#addAccordion').click(function () {
-    var newDiv = "<div><h3>Q4 New Question</h3><div>New Content</div></div>";
-    $('.questions').append(newDiv)
-    $('.questions').accordion("refresh");
-  });
+});
 
-  // data = {
-  //   "took": 2,
-  //   "timed_out": false,
-  //   "_shards": {
-  //     "total": 5,
-  //     "successful": 5,
-  //     "skipped": 0,
-  //     "failed": 0
-  //   },
-  //   "hits": {
-  //     "total": 7,
-  //     "max_score": 0.8630463,
-  //     "hits": [
-  //       {
-  //         "_index": "wikibooks",
-  //         "_type": "topics",
-  //         "_id": "AV9rBwfsVCo5YZGY-YnN",
-  //         "_score": 0.8630463,
-  //         "_source": {
-  //           "title": "java programming book text",
-  //           "content": "this is sample text"
-  //         }
-  //       },
-  //       {
-  //         "_index": "wikibooks",
-  //         "_type": "topics",
-  //         "_id": "AV9m5rcvVCo5YZGY-YnI",
-  //         "_score": 0.84748024,
-  //         "_source": {
-  //           "title": "java programming book text 1",
-  //           "content": "this is sample text 1"
-  //         }
-  //       },
-  //       {
-  //         "_index": "wikibooks",
-  //         "_type": "topics",
-  //         "_id": "AV9m5paCVCo5YZGY-YnH",
-  //         "_score": 0.5730107,
-  //         "_source": {
-  //           "title": "java programming book text",
-  //           "content": "this is sample text"
-  //         }
-  //       },
-  //       {
-  //         "_index": "wikibooks",
-  //         "_type": "topics",
-  //         "_id": "AV9rB_rKVCo5YZGY-YnR",
-  //         "_score": 0.5131662,
-  //         "_source": {
-  //           "title": "java programming book text 4",
-  //           "content": "this is sample text 4"
-  //         }
-  //       },
-  //       {
-  //         "_index": "wikibooks",
-  //         "_type": "topics",
-  //         "_id": "AV9rBxM3VCo5YZGY-YnO",
-  //         "_score": 0.393369,
-  //         "_source": {
-  //           "title": "java programming book text 1",
-  //           "content": "this is sample text 1"
-  //         }
-  //       },
-  //       {
-  //         "_index": "wikibooks",
-  //         "_type": "topics",
-  //         "_id": "AV9rB9CIVCo5YZGY-YnP",
-  //         "_score": 0.393369,
-  //         "_source": {
-  //           "title": "java programming book text 2",
-  //           "content": "this is sample text 2"
-  //         }
-  //       },
-  //       {
-  //         "_index": "wikibooks",
-  //         "_type": "topics",
-  //         "_id": "AV9rB_GnVCo5YZGY-YnQ",
-  //         "_score": 0.393369,
-  //         "_source": {
-  //           "title": "java programming book text 3",
-  //           "content": "this is sample text 3"
-  //         }
-  //       }
-  //     ]
-  //   }
-  // };
-  console.log("hello");
-  var div_name = "title";
+function create_divs(data) {
+  for (let i = 0; i < 10; i++) {
+    let $inner_div = $("<div>", {id: "innerdiv_" + [i], class: 'row'});
+    $("#data" + i).append($inner_div);
+    let $inner_div2 = $("<div>", {id: "innerdiv2_" + [i], class: 'col s12 m12'});
+    $("#innerdiv_" + [i]).append($inner_div2);
+    let ul1 = $("<ul>", {id: "innerul_" + [i], class: 'collapsible'}).attr('data-collapsible', 'accordion');
+    $("#innerdiv2_" + [i]).append(ul1);
+    for (let j = 0; j < 10; j++) {
+      let $li = $("<li>", {id: "li_" + [i] + [j]});
+      $("#innerul_" + [i]).append($li);
+      let $title = $("<div>", {id: "title_" + [i] + [j], class: 'collapsible-header'});
+      $("#li_" + [i] + [j]).append($title);
+      $("#title_" + [i] + [j]).text("Title:  " + data[i].hits.hits[j]._source.title);
+      let $content = $("<div>", {id: "content_" + [i] + [j], class: 'collapsible-body'});
+      $("#li_" + [i] + [j]).append($content);
+      $("#content_" + [i] + [j]).text("Content:  " + data[i].hits.hits[j]._source.content);
+      $("#li_" + [i] + [j]).append("<br />");
+    }
+    $("#data" + i).append("<br />");
+  }
 
+}
+
+function searchAllDocs() {
   $.ajax({
     type: "GET",
     url: "documents/search",
@@ -136,19 +45,4 @@ $(document).ready(function () {
       create_divs(data);
     }
   });
-
-});
-
-function create_divs(data) {
-  for (let i = 0; i < 10; i++) {
-    for(let j = 0;j <10; j++) {
-      let $div1 = $("<div>", {id: "title_" +[i] +[j]});
-      $("#data" + i).append($div1);
-      $("#title_" +[i] +[j]).text("Title:    " + data[i].hits.hits[j]._source.title);
-      var $div2 = $("<div>", {id: "content_" + [i] +[j]});
-      $("#data" + i).append($div2);
-      $("#content_" +[i] +[j]).text("Content:  " + data[i].hits.hits[j]._source.content);
-    }
-  }
-
 }
