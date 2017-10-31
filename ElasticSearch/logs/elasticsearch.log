@@ -1,0 +1,59 @@
+[2017-10-31T02:15:00,175][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/szFF9nmvTy2is8q69Zq3sg] deleting index
+[2017-10-31T02:15:00,551][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:15:01,662][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/N-_5chblRR-4aoHHisU3GQ] create_mapping [document]
+[2017-10-31T02:16:26,324][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/N-_5chblRR-4aoHHisU3GQ] deleting index
+[2017-10-31T02:16:26,554][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:16:27,620][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/qkqwH9FfRHW7EJCq2-qYRg] create_mapping [document]
+[2017-10-31T02:19:19,876][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/qkqwH9FfRHW7EJCq2-qYRg] deleting index
+[2017-10-31T02:19:20,191][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:19:21,242][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/1MG93FtfSNu303G5MWZKYQ] create_mapping [document]
+[2017-10-31T02:21:34,143][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/1MG93FtfSNu303G5MWZKYQ] deleting index
+[2017-10-31T02:21:34,423][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:21:35,427][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/WfFs1FvlQlmYbKOXWBRi6g] create_mapping [document]
+[2017-10-31T02:22:37,718][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/WfFs1FvlQlmYbKOXWBRi6g] deleting index
+[2017-10-31T02:22:38,063][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:22:39,162][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/4cST8ptUT7OwjiiJWnDXjA] create_mapping [document]
+[2017-10-31T02:22:54,553][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/4cST8ptUT7OwjiiJWnDXjA] deleting index
+[2017-10-31T02:22:54,771][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:22:55,772][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/6hKiI392TFqyr0pQbVKPfw] create_mapping [document]
+[2017-10-31T02:23:02,332][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/6hKiI392TFqyr0pQbVKPfw] deleting index
+[2017-10-31T02:23:02,630][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:23:03,694][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/fDjZ6weiTWOvOJlHwmQmVQ] create_mapping [document]
+[2017-10-31T02:24:23,285][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/fDjZ6weiTWOvOJlHwmQmVQ] deleting index
+[2017-10-31T02:24:23,537][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:24:24,584][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/4d5hx89UShq7u-MR3aOUOQ] create_mapping [document]
+[2017-10-31T02:24:56,190][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/4d5hx89UShq7u-MR3aOUOQ] deleting index
+[2017-10-31T02:24:56,584][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:24:57,628][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/TWxMBiznQGKiEPbFybAZKQ] create_mapping [document]
+[2017-10-31T02:25:23,144][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/TWxMBiznQGKiEPbFybAZKQ] deleting index
+[2017-10-31T02:25:23,411][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:25:24,397][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/Mh9qmE_PRNetFYVgt_yWpw] create_mapping [document]
+[2017-10-31T02:28:15,808][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/Mh9qmE_PRNetFYVgt_yWpw] deleting index
+[2017-10-31T02:28:16,139][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:28:17,192][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/qvvIVSaISjWBFvCCVnoYXA] create_mapping [document]
+[2017-10-31T02:28:44,586][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/qvvIVSaISjWBFvCCVnoYXA] deleting index
+[2017-10-31T02:28:44,877][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:28:45,952][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/plf3rkrWRWyVUCrxeDbfsA] create_mapping [document]
+[2017-10-31T02:28:52,010][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/plf3rkrWRWyVUCrxeDbfsA] deleting index
+[2017-10-31T02:28:52,325][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:28:53,353][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/4k20wGByRkmSVakpl0WeTg] create_mapping [document]
+[2017-10-31T02:31:05,979][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/4k20wGByRkmSVakpl0WeTg] deleting index
+[2017-10-31T02:31:06,353][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:31:07,469][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/zd7GnJvdTa-blS1nrIq14Q] create_mapping [document]
+[2017-10-31T02:31:15,051][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/zd7GnJvdTa-blS1nrIq14Q] deleting index
+[2017-10-31T02:31:15,344][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:31:16,402][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/mty1y-ICTauvqYefTIpiOA] create_mapping [document]
+[2017-10-31T02:32:48,966][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/mty1y-ICTauvqYefTIpiOA] deleting index
+[2017-10-31T02:32:49,268][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:32:50,325][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/vVpMAhoKTRWa0EgbNJI_rg] create_mapping [document]
+[2017-10-31T02:32:58,186][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/vVpMAhoKTRWa0EgbNJI_rg] deleting index
+[2017-10-31T02:32:58,421][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:32:59,365][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/cCT8ss4SS5evgjioSSS64w] create_mapping [document]
+[2017-10-31T02:35:47,538][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/cCT8ss4SS5evgjioSSS64w] deleting index
+[2017-10-31T02:35:47,854][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:35:48,879][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/9sDT_LKFTB-bWwL6JHaW7Q] create_mapping [document]
+[2017-10-31T02:36:54,019][INFO ][o.e.c.m.MetaDataDeleteIndexService] [SANTOSH719-PC] [second440index@954pm/9sDT_LKFTB-bWwL6JHaW7Q] deleting index
+[2017-10-31T02:36:54,329][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [second440index@954pm] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:36:55,407][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [second440index@954pm/zVEDea_rTGeEml7T1N3dcw] create_mapping [document]
+[2017-10-31T02:39:19,598][INFO ][o.e.c.m.MetaDataCreateIndexService] [SANTOSH719-PC] [adaptivewebassignment3] creating index, cause [api], templates [], shards [5]/[1], mappings []
+[2017-10-31T02:39:20,875][INFO ][o.e.c.m.MetaDataMappingService] [SANTOSH719-PC] [adaptivewebassignment3/AY-VPGWPQdihdJvJOotfXQ] create_mapping [document]
