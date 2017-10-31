@@ -5,7 +5,7 @@ var elasticClient = new elasticsearch.Client({
   log: 'info'
 });
 
-var indexName = "second440index@954pm";
+var indexName = "adaptivewebassignment3";
 
 /**
  * Delete an existing index

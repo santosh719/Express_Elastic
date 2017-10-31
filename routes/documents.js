@@ -51,7 +51,7 @@ router.post('/addAllDocuments', function (req, res, next) {
 function prepareJsonToIndex(bulk_request) {
   for (let i = 1; i < 440; i++) {
     let currentJsonFile = JSON.parse(fs.readFileSync("./json_files/" + i + ".json"));
-    bulk_request.push({index: {_index: 'second440index@954pm', _type: 'document', _id: i}});
+    bulk_request.push({index: {_index: 'adaptivewebassignment3', _type: 'document', _id: i}});
     bulk_request.push(currentJsonFile);
   }
   return bulk_request;
